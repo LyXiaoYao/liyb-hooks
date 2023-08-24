@@ -2,7 +2,7 @@
 title: 首页
 hero:
   image: /short-logo.png
-  desc: LYB React 业务 Hooks
+  desc: LYB React 业务 Hooks 搭建
   actions:
     - text: 指南
       link: /guide
