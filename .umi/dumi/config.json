@@ -1,0 +1,48 @@
+{
+  "menus": {
+    "en-US": {
+      "*": [
+        {
+          "path": "/",
+          "title": "首页",
+          "meta": {}
+        }
+      ],
+      "/guide": [
+        {
+          "path": "/guide",
+          "title": "encode-hooks",
+          "meta": {}
+        }
+      ],
+      "/": [
+        {
+          "title": "首页",
+          "path": "index"
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {
+    "en-US": [
+      {
+        "title": "指南",
+        "path": "/guide"
+      }
+    ]
+  },
+  "title": "demo hooks",
+  "logo": "/logo.png",
+  "mode": "site",
+  "repository": {
+    "url": "",
+    "branch": "master"
+  },
+  "theme": {}
+}

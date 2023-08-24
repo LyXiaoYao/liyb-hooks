@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "compilerOptions": {
+    "target": "ES5",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "liybHooks": ["./packages/hooks/src/index.ts"],
+      "liyb-hooks": ["./packages/hooks/src/index.ts"],
+      "liybHooks/lib/*": ["./packages/hooks/src/*"],
+      "liyb-hooks/lib/*": ["./packages/hooks/src/*"]
+    },
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "importHelpers": true
+  },
+  "exclude": ["node_modules", "lib", "es", "dist", "example"]
+}
