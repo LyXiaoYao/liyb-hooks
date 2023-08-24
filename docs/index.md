@@ -2,7 +2,7 @@
 title: 首页
 hero:
   image: /short-logo.png
-  desc: 印客学院 React 业务 Hooks
+  desc: LYB React 业务 Hooks
   actions:
     - text: 指南
       link: /guide
