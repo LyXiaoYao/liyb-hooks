@@ -5,7 +5,7 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
-    "init": "pnpm install",
+    "init": "pnpm install --no-frozen-lockfile",
     "start": "pnpm run dev",
     "dev": "dumi dev",
     "test": "jest",
