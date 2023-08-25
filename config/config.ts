@@ -1,8 +1,8 @@
 // import { menus } from './menu';
 
 export default {
-  base:'/lyb-hooks',
-  publicPath:'/lyb-hooks/',
+  base: '/lyb-hooks',
+  publicPath: '/lyb-hooks/',
   nodeModulesTransform: {
     type: 'none',
   },
@@ -40,6 +40,6 @@ export default {
     ],
   },
   mode: 'site',
-  title: 'demo hooks',
-  logo: '/logo.png',
+  title: 'lyb-hooks',
+  logo: '/Bicycle.png',
 };

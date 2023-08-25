@@ -11,7 +11,7 @@
       "/guide": [
         {
           "path": "/guide",
-          "title": "encode-hooks",
+          "title": "lyb-hooks",
           "meta": {}
         }
       ],
@@ -37,8 +37,8 @@
       }
     ]
   },
-  "title": "demo hooks",
-  "logo": "/logo.png",
+  "title": "lyb-hooks",
+  "logo": "/Bicycle.png",
   "mode": "site",
   "repository": {
     "url": "",

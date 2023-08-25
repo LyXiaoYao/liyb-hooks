@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React from 'react';
-import { ApplyPluginsType } from 'D:/Study/encode/实战项目/2、React Hooks/lyb-hooks/node_modules/.pnpm/@umijs+runtime@3.5.41_react@16.14.0/node_modules/@umijs/runtime';
+import { ApplyPluginsType } from 'D:/Code/project/lyb-hooks/node_modules/.pnpm/@umijs+runtime@3.5.41_react@16.14.0/node_modules/@umijs/runtime';
 import * as umiExports from './umiExports';
 import { plugin } from './plugin';
 
@@ -12,7 +12,7 @@ export function getRoutes() {
     "wrappers": [require('../dumi/layout').default],
     "component": ((props) => {
         const React = require('react');
-        const { default: getDemoRenderArgs } = require('D:/Study/encode/实战项目/2、React Hooks/lyb-hooks/node_modules/.pnpm/@umijs+preset-dumi@1.1.48_react-dom@18.2.0_react-router@6.4.2_react@18.2.0_typescript@5.1.6_umi@3.5.41/node_modules/@umijs/preset-dumi/lib/plugins/features/demo/getDemoRenderArgs');
+        const { default: getDemoRenderArgs } = require('D:/Code/project/lyb-hooks/node_modules/.pnpm/@umijs+preset-dumi@1.1.48_react-dom@18.2.0_react-router@6.4.2_react@18.2.0_typescript@5.1.6_umi@3.5.41/node_modules/@umijs/preset-dumi/lib/plugins/features/demo/getDemoRenderArgs');
         const { default: Previewer } = require('dumi-theme-default/es/builtins/Previewer.js');
         const { usePrefersColor, context } = require('dumi/theme');
 
@@ -55,19 +55,19 @@ export function getRoutes() {
     "__dumiRoot": true,
     "layout": false,
     "path": "/",
-    "wrappers": [require('../dumi/layout').default, require('D:/Study/encode/实战项目/2、React Hooks/lyb-hooks/node_modules/.pnpm/dumi-theme-default@1.1.24_@umijs+preset-dumi@1.1.48_react-dom@18.2.0_react@18.2.0/node_modules/dumi-theme-default/es/layout.js').default],
+    "wrappers": [require('../dumi/layout').default, require('D:/Code/project/lyb-hooks/node_modules/.pnpm/dumi-theme-default@1.1.24_@umijs+preset-dumi@1.1.48_react-dom@18.2.0_react@18.2.0/node_modules/dumi-theme-default/es/layout.js').default],
     "routes": [
       {
         "path": "/",
-        "component": require('D:/Study/encode/实战项目/2、React Hooks/lyb-hooks/docs/index.md').default,
+        "component": require('D:/Code/project/lyb-hooks/docs/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1692450195321,
+          "updatedTime": 1692890712000,
           "title": "首页",
           "hero": {
-            "image": "/short-logo.png",
-            "desc": "<div class=\"markdown\"><p>印客学院 React 业务 Hooks</p></div>",
+            "image": "/background.png",
+            "desc": "<div class=\"markdown\"><p>React 业务 Hooks 搭建</p></div>",
             "actions": [
               {
                 "text": "指南",
@@ -79,7 +79,7 @@ export function getRoutes() {
               }
             ]
           },
-          "footer": "<div class=\"markdown\"><p>Copyright (c) © 2023 by encode studio, All Rights Reserved</p></div>",
+          "footer": "<div class=\"markdown\"><p>Copyright (c) © 2023 by Github@LyXiaoYao, All Rights Reserved</p></div>",
           "slugs": [
             {
               "depth": 2,
@@ -98,20 +98,20 @@ export function getRoutes() {
             }
           ]
         },
-        "title": "首页 - demo hooks"
+        "title": "首页 - lyb-hooks"
       },
       {
         "path": "/guide",
-        "component": require('D:/Study/encode/实战项目/2、React Hooks/lyb-hooks/docs/guide/index.md').default,
+        "component": require('D:/Code/project/lyb-hooks/docs/guide/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "docs/guide/index.md",
-          "updatedTime": 1692887659914,
+          "updatedTime": 1692888127000,
           "slugs": [
             {
               "depth": 1,
-              "value": "encode-hooks",
-              "heading": "encode-hooks"
+              "value": "lyb-hooks",
+              "heading": "lyb-hooks"
             },
             {
               "depth": 2,
@@ -179,16 +179,16 @@ export function getRoutes() {
               "heading": "-联系"
             }
           ],
-          "title": "encode-hooks",
+          "title": "lyb-hooks",
           "nav": {
             "path": "/guide",
             "title": "Guide"
           }
         },
-        "title": "encode-hooks - demo hooks"
+        "title": "lyb-hooks - lyb-hooks"
       }
     ],
-    "title": "demo hooks",
+    "title": "lyb-hooks",
     "component": (props) => props.children
   }
 ];
