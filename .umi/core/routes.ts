@@ -63,11 +63,11 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1692450195321,
+          "updatedTime": 1692890692988,
           "title": "首页",
           "hero": {
             "image": "/short-logo.png",
-            "desc": "<div class=\"markdown\"><p>印客学院 React 业务 Hooks</p></div>",
+            "desc": "<div class=\"markdown\"><p>LYB React 业务 Hooks 搭建</p></div>",
             "actions": [
               {
                 "text": "指南",
