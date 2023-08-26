@@ -1,14 +1,14 @@
 ---
 title: 首页
 hero:
-  image: /short-logo.png
-  desc: LYB React 业务 Hooks 搭建
+  image: /background.png
+  desc: React 业务 Hooks 搭建
   actions:
     - text: 指南
       link: /guide
     - text: Hooks 列表
       link: /hooks
-footer: Copyright (c) © 2023 by encode studio, All Rights Reserved
+footer: Copyright (c) © 2023 by Github@LyXiaoYao, All Rights Reserved
 ---
 
 ## ✨ 特性
@@ -20,13 +20,13 @@ footer: Copyright (c) © 2023 by encode studio, All Rights Reserved
 ## 📦 安装
 
 ```bash
-$ pnpm install --save encode-hooks
+$ pnpm install --save lyb-hooks
 # or
-$ yarn add encode-hooks
+$ yarn add lyb-hooks
 ```
 
 ## 🔨 使用
 
 ```ts
-import { useToggle } from 'encode-hooks';
+import { useToggle } from 'lyb-hooks';
 ```
