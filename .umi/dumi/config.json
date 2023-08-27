@@ -1,6 +1,20 @@
 {
   "menus": {
     "en-US": {
+      "/hooks": [
+        {
+          "title": "UseTitle",
+          "path": "/hooks/use-title",
+          "meta": {},
+          "children": [
+            {
+              "path": "/hooks/use-title",
+              "title": "useTitle",
+              "meta": {}
+            }
+          ]
+        }
+      ],
       "*": [
         {
           "path": "/",

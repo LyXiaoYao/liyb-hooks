@@ -41,5 +41,5 @@ export default {
   },
   mode: 'site',
   title: 'lyb-hooks',
-  logo: '/Bicycle.png',
+  logo: process.env.NODE_ENV === 'development' ? '/Bicycle.png' : '/lyb-hooks/Bicycle.png',
 };
