@@ -3,14 +3,11 @@
     "en-US": {
       "/hooks": [
         {
-          "title": "UseTitle",
-          "path": "/hooks/use-title",
-          "meta": {},
+          "title": "状态",
           "children": [
             {
-              "path": "/hooks/use-title",
-              "title": "useTitle",
-              "meta": {}
+              "path": "/hooks/use-toggle",
+              "title": "useToggle"
             }
           ]
         }
@@ -24,9 +21,8 @@
       ],
       "/guide": [
         {
-          "path": "/guide",
-          "title": "lyb-hooks",
-          "meta": {}
+          "title": "介绍",
+          "path": "/guide"
         }
       ],
       "/": [
@@ -48,6 +44,10 @@
       {
         "title": "指南",
         "path": "/guide"
+      },
+      {
+        "title": "Hooks",
+        "path": "/hooks"
       }
     ]
   },

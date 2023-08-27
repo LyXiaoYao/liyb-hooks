@@ -1,11 +1,11 @@
-// import { menus } from './menu';
+import { menus } from './menu';
 
 export default {
-  // base: '/lyb-hooks',
   publicPath: '/lyb-hooks/',
   nodeModulesTransform: {
     type: 'none',
   },
+  favicon: '/lyb-hooks/Bicycle.png',
   history: {
     type: 'hash',
   },
@@ -20,16 +20,14 @@ export default {
     ],
   ],
   alias: {
-    demoHooks: process.cwd() + '/packages/hooks/src/index.ts',
+    liybHooks: process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
     includes: ['packages/hooks/src', 'docs'],
   },
   navs: [
-    {
-      title: '指南',
-      path: '/guide',
-    },
+    { title: '指南', path: '/guide' },
+    { title: 'Hooks', path: '/hooks' },
   ],
   menus: {
     '/': [
@@ -38,6 +36,13 @@ export default {
         path: 'index',
       },
     ],
+    '/guide': [
+      {
+        title: '介绍',
+        path: '/guide',
+      },
+    ],
+    '/hooks': menus,
   },
   mode: 'site',
   title: 'lyb-hooks',

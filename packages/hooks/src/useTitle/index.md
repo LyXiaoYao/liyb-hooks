@@ -1,6 +1,0 @@
----
-nav:
-  path: /hooks
----
-
-# useTitle

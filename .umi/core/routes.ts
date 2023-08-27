@@ -58,30 +58,66 @@ export function getRoutes() {
     "wrappers": [require('../dumi/layout').default, require('D:/Study/encode/实战项目/2、React Hooks/lyb-hooks/node_modules/.pnpm/dumi-theme-default@1.1.24_@umijs+preset-dumi@1.1.48_react-dom@18.2.0_react@18.2.0/node_modules/dumi-theme-default/es/layout.js').default],
     "routes": [
       {
-        "path": "/hooks/use-title",
-        "component": require('D:/Study/encode/实战项目/2、React Hooks/lyb-hooks/packages/hooks/src/useTitle/index.md').default,
+        "path": "/hooks/use-toggle",
+        "component": require('D:/Study/encode/实战项目/2、React Hooks/lyb-hooks/packages/hooks/src/useToggle/index.md').default,
         "exact": true,
         "meta": {
-          "filePath": "packages/hooks/src/useTitle/index.md",
-          "updatedTime": 1693053627067,
+          "filePath": "packages/hooks/src/useToggle/index.md",
+          "updatedTime": 1693146372990,
           "nav": {
             "path": "/hooks",
-            "title": "UseTitle"
+            "title": "UseToggle"
           },
           "slugs": [
             {
               "depth": 1,
-              "value": "useTitle",
-              "heading": "usetitle"
+              "value": "useToggle",
+              "heading": "usetoggle"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            },
+            {
+              "depth": 3,
+              "value": "高级用法",
+              "heading": "高级用法"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Params",
+              "heading": "params"
+            },
+            {
+              "depth": 3,
+              "value": "Result",
+              "heading": "result"
+            },
+            {
+              "depth": 3,
+              "value": "Actions",
+              "heading": "actions"
             }
           ],
-          "title": "useTitle",
+          "title": "useToggle",
+          "hasPreviewer": true,
           "group": {
-            "path": "/hooks/use-title",
-            "title": "UseTitle"
+            "path": "/hooks/use-toggle",
+            "title": "UseToggle"
           }
         },
-        "title": "useTitle - lyb-hooks"
+        "title": "useToggle - lyb-hooks"
       },
       {
         "path": "/",
@@ -89,10 +125,10 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1693103501446,
+          "updatedTime": 1693105603991,
           "title": "首页",
           "hero": {
-            "image": "/background.png",
+            "image": "/lyb-hooks/background.png",
             "desc": "<div class=\"markdown\"><p>React 业务 Hooks 搭建</p></div>",
             "actions": [
               {
@@ -217,7 +253,7 @@ export function getRoutes() {
         "path": "/hooks",
         "meta": {},
         "exact": true,
-        "redirect": "/hooks/use-title"
+        "redirect": "/hooks/use-toggle"
       }
     ],
     "title": "lyb-hooks",
