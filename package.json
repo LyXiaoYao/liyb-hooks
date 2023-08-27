@@ -17,7 +17,7 @@
     "encode-fe-lint-fix": "encode-fe-lint fix"
   },
   "keywords": [],
-  "author": "",
+  "author": "LyXiaoYao",
   "license": "ISC",
   "devDependencies": {
     "@ant-design/icons": "^5.0.1",
