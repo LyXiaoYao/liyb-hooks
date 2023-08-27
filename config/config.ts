@@ -2,7 +2,7 @@
 
 export default {
   // base: '/lyb-hooks',
-  // publicPath: '/lyb-hooks/',
+  publicPath: '/lyb-hooks/',
   nodeModulesTransform: {
     type: 'none',
   },
