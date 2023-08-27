@@ -1,7 +1,7 @@
 ---
 title: 首页
 hero:
-  image: /background.png
+  image: /lyb-hooks/background.png
   desc: React 业务 Hooks 搭建
   actions:
     - text: 指南
