@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { createHashHistory, History } from 'D:/Study/encode/实战项目/2、React Hooks/lyb-hooks/node_modules/.pnpm/@umijs+runtime@3.5.41_react@16.14.0/node_modules/@umijs/runtime';
+import { createHashHistory, History } from 'D:/Code/project/liyb-hooks/node_modules/.pnpm/@umijs+runtime@3.5.41_react@16.14.0/node_modules/@umijs/runtime';
 
 let options = {
   "basename": "/"

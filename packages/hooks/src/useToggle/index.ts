@@ -16,7 +16,7 @@ function useToggle<T, U>(defaultValue: T = false as T, reverseValue?: U): [T | U
 
   const originReverseValue = reverseValue === undefined ? !defaultValue : reverseValue;
 
-  const actions = useMemo(() => {
+  const actions: Actions<T | U> = useMemo(() => {
     const toggle = () =>
       setState((val: T | U) => (val === defaultValue ? originReverseValue : defaultValue));
     const setLeft = () => setState(defaultValue);

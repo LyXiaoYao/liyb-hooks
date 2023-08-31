@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React from 'react';
-import { ApplyPluginsType } from 'D:/Study/encode/实战项目/2、React Hooks/lyb-hooks/node_modules/.pnpm/@umijs+runtime@3.5.41_react@16.14.0/node_modules/@umijs/runtime';
+import { ApplyPluginsType } from 'D:/Code/project/liyb-hooks/node_modules/.pnpm/@umijs+runtime@3.5.41_react@16.14.0/node_modules/@umijs/runtime';
 import * as umiExports from './umiExports';
 import { plugin } from './plugin';
 
@@ -12,7 +12,7 @@ export function getRoutes() {
     "wrappers": [require('../dumi/layout').default],
     "component": ((props) => {
         const React = require('react');
-        const { default: getDemoRenderArgs } = require('D:/Study/encode/实战项目/2、React Hooks/lyb-hooks/node_modules/.pnpm/@umijs+preset-dumi@1.1.48_react-dom@18.2.0_react-router@6.4.2_react@18.2.0_typescript@5.1.6_umi@3.5.41/node_modules/@umijs/preset-dumi/lib/plugins/features/demo/getDemoRenderArgs');
+        const { default: getDemoRenderArgs } = require('D:/Code/project/liyb-hooks/node_modules/.pnpm/@umijs+preset-dumi@1.1.48_react-dom@18.2.0_react-router@6.4.2_react@18.2.0_typescript@5.1.6_umi@3.5.41/node_modules/@umijs/preset-dumi/lib/plugins/features/demo/getDemoRenderArgs');
         const { default: Previewer } = require('dumi-theme-default/es/builtins/Previewer.js');
         const { usePrefersColor, context } = require('dumi/theme');
 
@@ -55,15 +55,52 @@ export function getRoutes() {
     "__dumiRoot": true,
     "layout": false,
     "path": "/",
-    "wrappers": [require('../dumi/layout').default, require('D:/Study/encode/实战项目/2、React Hooks/lyb-hooks/node_modules/.pnpm/dumi-theme-default@1.1.24_@umijs+preset-dumi@1.1.48_react-dom@18.2.0_react@18.2.0/node_modules/dumi-theme-default/es/layout.js').default],
+    "wrappers": [require('../dumi/layout').default, require('D:/Code/project/liyb-hooks/node_modules/.pnpm/dumi-theme-default@1.1.24_@umijs+preset-dumi@1.1.48_react-dom@18.2.0_react@18.2.0/node_modules/dumi-theme-default/es/layout.js').default],
     "routes": [
       {
+        "path": "/hooks/use-boolean",
+        "component": require('D:/Code/project/liyb-hooks/packages/hooks/src/useBoolean/index.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "packages/hooks/src/useBoolean/index.md",
+          "updatedTime": 1693443196347,
+          "nav": {
+            "path": "/hooks",
+            "title": "UseBoolean"
+          },
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "useBoolean",
+              "heading": "useboolean"
+            },
+            {
+              "depth": 2,
+              "value": "代码演示",
+              "heading": "代码演示"
+            },
+            {
+              "depth": 3,
+              "value": "基础用法",
+              "heading": "基础用法"
+            }
+          ],
+          "title": "useBoolean",
+          "hasPreviewer": true,
+          "group": {
+            "path": "/hooks/use-boolean",
+            "title": "UseBoolean"
+          }
+        },
+        "title": "useBoolean - lyb-hooks"
+      },
+      {
         "path": "/hooks/use-toggle",
-        "component": require('D:/Study/encode/实战项目/2、React Hooks/lyb-hooks/packages/hooks/src/useToggle/index.md').default,
+        "component": require('D:/Code/project/liyb-hooks/packages/hooks/src/useToggle/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useToggle/index.md",
-          "updatedTime": 1693146372990,
+          "updatedTime": 1693146676000,
           "nav": {
             "path": "/hooks",
             "title": "UseToggle"
@@ -121,11 +158,11 @@ export function getRoutes() {
       },
       {
         "path": "/",
-        "component": require('D:/Study/encode/实战项目/2、React Hooks/lyb-hooks/docs/index.md').default,
+        "component": require('D:/Code/project/liyb-hooks/docs/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "docs/index.md",
-          "updatedTime": 1693105603991,
+          "updatedTime": 1693105619000,
           "title": "首页",
           "hero": {
             "image": "/lyb-hooks/background.png",
@@ -164,11 +201,11 @@ export function getRoutes() {
       },
       {
         "path": "/guide",
-        "component": require('D:/Study/encode/实战项目/2、React Hooks/lyb-hooks/docs/guide/index.md').default,
+        "component": require('D:/Code/project/liyb-hooks/docs/guide/index.md').default,
         "exact": true,
         "meta": {
           "filePath": "docs/guide/index.md",
-          "updatedTime": 1693062852530,
+          "updatedTime": 1692938896000,
           "slugs": [
             {
               "depth": 1,
