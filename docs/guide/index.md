@@ -58,6 +58,6 @@ pnpm run changelog
 
 ## 📧 联系
 
-- **GitHub**: <https://github.com/LyXiaoYao/lyb-hooks>
+- **GitHub**: <https://github.com/LyXiaoYao/liyb-hooks>
 
 </br>

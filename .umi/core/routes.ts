@@ -165,7 +165,7 @@ export function getRoutes() {
           "updatedTime": 1693105619000,
           "title": "首页",
           "hero": {
-            "image": "/lyb-hooks/background.png",
+            "image": "/liyb-hooks/background.png",
             "desc": "<div class=\"markdown\"><p>React 业务 Hooks 搭建</p></div>",
             "actions": [
               {
