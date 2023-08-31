@@ -1,11 +1,11 @@
 import { menus } from './menu';
 
 export default {
-  publicPath: '/lyb-hooks/',
+  publicPath: '/liyb-hooks/',
   nodeModulesTransform: {
     type: 'none',
   },
-  favicon: '/lyb-hooks/Bicycle.png',
+  favicon: '/liyb-hooks/Bicycle.png',
   history: {
     type: 'hash',
   },
@@ -46,5 +46,5 @@ export default {
   },
   mode: 'site',
   title: 'lyb-hooks',
-  logo: process.env.NODE_ENV === 'development' ? '/Bicycle.png' : '/lyb-hooks/Bicycle.png',
+  logo: process.env.NODE_ENV === 'development' ? '/Bicycle.png' : '/liyb-hooks/Bicycle.png',
 };

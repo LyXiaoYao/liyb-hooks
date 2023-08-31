@@ -63,7 +63,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "packages/hooks/src/useBoolean/index.md",
-          "updatedTime": 1693443196347,
+          "updatedTime": 1693445171000,
           "nav": {
             "path": "/hooks",
             "title": "UseBoolean"
